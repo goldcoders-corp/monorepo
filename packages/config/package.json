@@ -1,0 +1,33 @@
+{
+  "name": "config",
+  "version": "0.0.0",
+  "exports": {
+    "./*": "./*",
+    "./vite": "./vite"
+  },
+  "scripts": {
+    "lint": "eslint . --cache"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.12",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-turbo": "^2.1.2",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.36.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "eslint-utils": "^3.0.0",
+    "regexpp": "^3.2.0",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-svgr": "^4.2.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.6",
+    "vite-tsconfig-paths": "^5.0.1"
+  }
+}
