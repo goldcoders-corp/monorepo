@@ -36,6 +36,15 @@ cd packages/ui
 pnpm dlx shadcn@latest add accordion
 ```
 
+Export the components in `index.tsx` file
+
+```ts
+// Export all components here to be used by other apps
+export * from "./components/ui/button";
+export * from "./components/ui/accordion";
+```
+
+
 for list of components check [shadcn components](https://ui.shadcn.com/docs/components/accordion)
 
 ## Storybook 

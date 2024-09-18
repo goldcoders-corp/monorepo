@@ -1,4 +1,4 @@
 import "../style/styles.css";
 
-// component exports
+// Export all components here to be used by other apps
 export * from "./components/ui/button";
