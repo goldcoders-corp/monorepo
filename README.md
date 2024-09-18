@@ -15,7 +15,7 @@ What's included?
 Run the following command:
 
 ```sh
-npx degit https://github.com/goldcoders/monorepo.git monorepo
+npx degit https://github.com/goldcoders-corp/monorepo.git monorepo
 cd monorepo
 pnpm install
 git init . && git add . && git commit -m "Init"
@@ -32,8 +32,11 @@ All components are declared inside the `ui` package , inside `src/components/ui`
 
 example:
 ```sh
-npx shadcn@latest add accordion
+cd packages/ui
+pnpm dlx shadcn@latest add accordion
 ```
+
+for list of components check [shadcn components](https://ui.shadcn.com/docs/components/accordion)
 
 ## Storybook 
 Inside `apps/workshop` folder, you define a story for each component inside `components/ui` folder e.g. `Button.stories.tsx`.
